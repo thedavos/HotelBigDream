@@ -1,0 +1,46 @@
+.hero__header {
+	background-color: var(--blanco);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 156px;
+}
+
+.header__logo {
+	margin-left: 64px;
+}
+
+.header__logo__img {
+	width: 90px;
+	height: 120px;
+}
+
+.header__lista {
+	font-family: var(--Quicksand);
+	display: flex;
+	font-size: 18px;
+}
+
+.header__lista__item {
+	margin: 0 16px;
+}
+
+.header__lista__item:first-child {
+	margin-left: 0;
+}
+
+.header__lista__item:last-child {
+	margin-right: 64px;
+}
+
+.header__lista__item:last-child .lista__item__ancla {
+	background-color: var(--morado);
+	color: var(--blanco);
+	font-weight: 700;
+	padding: 8px 24px;
+	border-radius: 18px;
+}
+
+.lista__item__ancla {
+	color: var(--morado);
+}
