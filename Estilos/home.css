@@ -24,6 +24,10 @@
 	margin-left: 64px;
 }
 
+.header__logo__img {
+	width: 70px;
+}
+
 .header__lista {
 	font-family: var(--Quicksand);
 	display: flex;
