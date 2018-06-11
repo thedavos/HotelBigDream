@@ -22,6 +22,7 @@
 
 .header__lista__item {
 	margin: 0 16px;
+	position: relative;
 }
 
 .header__lista__item:first-child {
@@ -42,4 +43,32 @@
 
 .lista__item__ancla {
 	color: var(--morado);
+	padding-bottom: 10px;
+}
+
+.header__lista__dropdown {
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 30px;
+}
+
+.header__lista__item:first-child:hover .header__lista__dropdown {
+	display: block;
+}
+
+.header__lista__item:nth-of-type(4):hover .header__lista__dropdown {
+	display: block;
+}
+
+.dropdown__item__anchor {
+	padding: 5px 10px;
+	display: block;
+	background-color: var(--blanco);
+	color: var(--morado);
+}
+
+.dropdown__item__anchor:hover {
+	background-color: var(--morado);
+	color: var(--blanco);
 }
