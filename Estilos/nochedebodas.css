@@ -1,0 +1,15 @@
+@import url('./index.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+.hero {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero__content {
+	flex: 1;
+}
+
+/* Comienza Aquí */
