@@ -68,6 +68,10 @@
   margin-top: 24px;
 }
 
+.--container:first-child .imagen {
+  height: 234px;
+}
+
 .--container:first-child {
   margin-top: 0;
 }
