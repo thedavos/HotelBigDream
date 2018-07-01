@@ -52,9 +52,6 @@
 
 .figure__anchor {
 	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	width: 340px;
 	height: 200px;
 	margin-right: 16px;
@@ -64,11 +61,6 @@
 	margin-right: 0;
 }
 
-.figure__anchor:hover .figure__text {
-	border: 1px solid var(--negro);
-	color: var(--negro);
-}
-
 .figure__image {
 	width: inherit;
 	height: inherit;
@@ -76,14 +68,25 @@
 }
 
 .figure__text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	position: absolute;
+	top: 10%;
+	bottom: 10%;
+	right: 5%;
+	left: 5%;
 	color: var(--blanco);
 	font-family: var(--Quicksand);
 	font-size: 22px;
-	border: 1px solid var(--blanco);
-	padding: 68px 25%;
+	border: 2px solid var(--blanco);
+	transition: .4s;
 }
 
-.figure__row:first-child .figure__anchor:first-child .figure__text {
-	padding: 68px 17%;
+.figure__text:hover {
+	top: 12%;
+	bottom: 12%;
+	right: 7%;
+	left: 7%;
+	font-size: 19px;
 }
