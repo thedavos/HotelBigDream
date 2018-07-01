@@ -37,6 +37,61 @@
 	line-height: 32px;
 }
 
+/*-- Team -- */
+
+.content__team {
+	margin-bottom: 70px;
+}
+
+.team__title {
+	color: var(--morado);
+	font-size: 24px;
+	text-align: center;
+}
+
+.team__members {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 60px 0 0;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.info__perfil {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.info__name {
+	font-size: 18px;
+	font-weight: 500;
+	color: #111;
+	padding: 20px 0;
+}
+
+.member__redes {
+	text-align: center;
+}
+
+
+.redes__anchor {
+	color: var(--azul);
+	margin-right: 12px;
+}
+
+.redes__anchor:last-child {
+	margin-right: 0;
+}
+
+
+/*-- Contacto -- */
 .content__content {
 	display: flex;
 	justify-content: center;

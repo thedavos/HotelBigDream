@@ -186,8 +186,15 @@
 	height: 232px;
 }
 
-.content__item:hover {
-	filter: brightness(.6);
+.content__item:hover .habitaciones__overlay {
+	top: 12%;
+	bottom: 12%;
+	right: 7%;
+	left: 7%;
+}
+
+.content__item:hover .overlay__title {
+	font-size: 22px;
 }
 
 .habitaciones__fondo {
@@ -211,6 +218,7 @@
 	right: 5%;
 	left: 5%;
 	border: 3px solid var(--blanco);
+	transition: .4s;
 }
 
 .overlay__title {
@@ -220,4 +228,5 @@
 	color: var(--blanco);
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
+	transition: .4s;
 }
