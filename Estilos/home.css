@@ -50,6 +50,11 @@
 .lista__item__ancla {
 	color: var(--blanco);
 	padding-bottom: 10px;
+	transition: .2s;
+}
+
+.lista__item__ancla:hover {
+	color: var(--gris);
 }
 
 .header__lista__dropdown {
@@ -142,12 +147,14 @@
 /* About us */
 
 .hero__aboutus {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 50px 25%;
+	padding: 64px 0;
 	background-color: var(--blanco);
-	height: 254px;
+}
+
+.aboutus__container {
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
 .container__title {
@@ -177,6 +184,10 @@
 	position: relative;
 	width: 50%;
 	height: 232px;
+}
+
+.content__item:hover {
+	filter: brightness(.6);
 }
 
 .habitaciones__fondo {

@@ -173,6 +173,10 @@
 	margin: 24px 0;
 }
 
+.options__hab:hover {
+	box-shadow: 0 0 4px var(--morado);
+}
+
 .options__hab:last-child {
 	margin-top: 24px;
 	margin-bottom: 0;

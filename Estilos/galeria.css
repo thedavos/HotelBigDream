@@ -25,6 +25,8 @@
 .imgs__item {
 	width: 192px;
 	height: 156px;
-	margin: 4px;
+	margin: 2px 0;
+	vertical-align: top;
 	cursor: pointer;
+	object-fit: cover;
 }
